@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM4jkBi0nj27X5/grHvK8Qn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_2/Exercise_5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1qYeBdRl8H2k",
+        "outputId": "44516d15-aa83-4fa6-a55a-e98b0cafb7a6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The total amount of the USB sticks using $50 is 8USBs and the amount of change is $2.\n"
+          ]
+        }
+      ],
+      "source": [
+        "money = 50\n",
+        "USB = 6\n",
+        "item_amount= money // USB\n",
+        "change= money % USB\n",
+        "\n",
+        "print(\"The total amount of the USB sticks using $\" +str(money) + \" is \"\\\n",
+        "      +str(item_amount) + \"USBs and the amount of change is $\" +str(change)\\\n",
+        "      + \".\")"
+      ]
+    }
+  ]
+}
