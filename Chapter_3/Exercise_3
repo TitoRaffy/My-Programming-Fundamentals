@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOOHy1nGMIDiLjq2EFnQP62",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_3/Exercise_3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 10,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fT2JGFQ8C6Sn",
+        "outputId": "f4ea8845-5782-48a6-e566-adba16ce8803"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The Metro is my Go-to transpo\n",
+            "Would love to have my own Car I cant wait to get my lisence\n",
+            "The Jeepney is my favorite transportation back in the Philippines\n"
+          ]
+        }
+      ],
+      "source": [
+        "# These are my favorite use for transportation\n",
+        "Vehicles = [\"Metro\", \"Car\", \"Jeepney\"]\n",
+        "\n",
+        "print(\"The \" + Vehicles[0].title() + \" is my Go-to transpo\")\n",
+        "print(\"Would love to have my own \" + Vehicles[1].title() + \" I cant wait to get my lisence\")\n",
+        "print(\"The \" + Vehicles[2].title() + \" is my favorite transportation back in the Philippines\")\n"
+      ]
+    }
+  ]
+}
