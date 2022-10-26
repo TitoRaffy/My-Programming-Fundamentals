@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMEe6R2WojcEIMpdXdODzfh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_3/Exercise_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XgB-cyJqjaC1",
+        "outputId": "5ea4017d-6b82-4109-878c-7ec6906ad381"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Howdy, Kristian!\n",
+            "Howdy, Carl!\n",
+            "Howdy, Yang!\n"
+          ]
+        }
+      ],
+      "source": [
+        "# printing names with greetings\n",
+        "\n",
+        "names = [\"Kristian\", \"Carl\", \"Yang\"]\n",
+        "\n",
+        "print(\"Howdy, \" + names[0].title() + \"!\")\n",
+        "print(\"Howdy, \" + names[1].title() + \"!\")\n",
+        "print(\"Howdy, \" + names[2].title() + \"!\")"
+      ]
+    }
+  ]
+}
