@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNvDfUzAYSrKk7AMrIVTB3Y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_3/Exercise_4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IOb_ldMPLSsc",
+        "outputId": "d98ac375-0aab-4f7d-9c6b-de5478d63b3d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hey, Bruno Mars!, Would be amazing to have you for dinner, and talk about your music!\n",
+            "Greetings to you!, Michael Jackson. I would love to have you for dinner, and a long chat about your journey in your career\n",
+            "Dear Mr. John Mayer, I it would be a pleasure to have you over for dinner, and have you give me lesson of music theory!\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Would be a dream to have these people for dinner\n",
+        "\n",
+        "Celebrities = [\"Bruno Mars\", \"Michael Jackson\", \"John Mayer\"]\n",
+        "# a dream come true\n",
+        "print(\"Hey, \" + Celebrities[0].title() + \"!, Would be amazing to have you for dinner, and talk about your music!\")\n",
+        "print(\"Greetings to you!, \" + Celebrities[1].title() + \". I would love to have you for dinner, and a long chat about your journey in your career\")\n",
+        "print(\"Dear Mr. \" + Celebrities[2].title() + \", It would be a great pleasure to have you over for dinner, and have you give me lesson of music theory!\" ) "
+      ]
+    }
+  ]
+}
