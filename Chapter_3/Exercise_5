@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNgnRGtC1RbHAUa4s84F+Pa",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_3/Exercise_5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "id": "hKiaXFwKy2qu",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "15e6519f-638c-4902-f8eb-9d9e90c9d808"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hey, Bruno Mars!,\n",
+            "Would be amazing to have you for dinner, and talk about your music!\n",
+            "\n",
+            "Greetings to you!, Michael Jackson.\n",
+            "I would love to have you for dinner, and a long chat about your journey in your career\n",
+            "\n",
+            "Dear Mr. John Mayer, \n",
+            "It would be a great pleasure to have you over for dinner, and have you give me lesson of music theory!\n",
+            "\n",
+            "\n",
+            "Michael Jackson wont be able to make it this time, since he isnt feeling well\n",
+            "\n",
+            "\n",
+            "Hey, Bruno Mars!,\n",
+            "Would be amazing to have you for dinner, and talk about your music!\n",
+            "\n",
+            "Greetings to you!, Kobe Bryant.\n",
+            "I would love to have you for dinner! would be amazing if you taught me some basketball techniques after\n",
+            "\n",
+            "Dear Mr. John Mayer,\n",
+            "It would be a great pleasure to have you over for dinner, and have you give me lesson of music theory!\n",
+            "\n"
+          ]
+        }
+      ],
+      "source": [
+        "# I will now change the Guest list\n",
+        "Celebrities = [\"Bruno Mars\", \"Michael Jackson\", \"John Mayer\"]\n",
+        "\n",
+        "print(\"Hey, \" + Celebrities[0].title() + \"!,\\nWould be amazing to have you for dinner, and talk about your music!\\n\")\n",
+        "print(\"Greetings to you!, \" + Celebrities[1].title() + \".\\nI would love to have you for dinner, and a long chat about your journey in your career\\n\")\n",
+        "print(\"Dear Mr. \" + Celebrities[2].title() + \", \\nIt would be a great pleasure to have you over for dinner, and have you give me lesson of music theory!\\n\" ) \n",
+        "\n",
+        "\n",
+        "print(\"\\nMichael Jackson wont be able to make it this time, since he isnt feeling well\\n\\n\")\n",
+        "Celebrities[1] = \"Kobe Bryant\"\n",
+        "\n",
+        "print(\"Hey, \" + Celebrities[0].title() + \"!,\\nWould be amazing to have you for dinner, and talk about your music!\\n\")\n",
+        "print(\"Greetings to you!, \" + Celebrities[1].title() + \".\\nI would love to have you for dinner! would be amazing if you taught me some basketball techniques after\\n\")\n",
+        "print(\"Dear Mr. \" + Celebrities[2].title() + \",\\nIt would be a great pleasure to have you over for dinner, and have you give me lesson of music theory!\\n\" ) \n"
+      ]
+    }
+  ]
+}
