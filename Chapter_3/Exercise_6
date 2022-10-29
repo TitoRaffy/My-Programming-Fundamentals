@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNgvxsOFDkwKs0D4pGppjFM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_3/Exercise_6\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f0Tn1GjB3e1m",
+        "outputId": "2499f79a-2822-4d87-dc29-55263d90e20f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hey, Bruno Mars!,\n",
+            "Would be amazing to have you for dinner, and talk about your music!\n",
+            "\n",
+            "Greetings to you!, Michael Jackson.\n",
+            "I would love to have you for dinner, and a long chat about your journey in your career\n",
+            "\n",
+            "Dear Mr. John Mayer, \n",
+            "It would be a great pleasure to have you over for dinner, and have you give me lesson of music theory!\n",
+            "\n",
+            "Sorry, but our table was switched in to a smaller one. Now, Only 2 people can come for dinner...\n",
+            "I'm sorreh, John Mayer So apperently, I never liked your music in the first place.\n",
+            "\n",
+            "Hey, Bruno Mars!,\n",
+            "Would be amazing to have you for dinner, and talk about your music!\n",
+            "\n",
+            "Greetings to you!, Michael Jackson.\n",
+            "I would love to have you for dinner! would be amazing if you taught me some basketball techniques after\n",
+            "\n",
+            "[]\n"
+          ]
+        }
+      ],
+      "source": [
+        "Celebrities = [\"Bruno Mars\", \"Michael Jackson\", \"John Mayer\"]\n",
+        "\n",
+        "print(\"Hey, \" + Celebrities[0].title() + \"!,\\nWould be amazing to have you for dinner, and talk about your music!\\n\")\n",
+        "print(\"Greetings to you!, \" + Celebrities[1].title() + \".\\nI would love to have you for dinner, and a long chat about your journey in your career\\n\")\n",
+        "print(\"Dear Mr. \" + Celebrities[2].title() + \", \\nIt would be a great pleasure to have you over for dinner, and have you give me lesson of music theory!\\n\" ) \n",
+        "\n",
+        "print(\"Sorry, but our table was switched in to a smaller one. Now, Only 2 people can come for dinner...\")\n",
+        "\n",
+        "popped_Celebrities = Celebrities.pop(2)\n",
+        "print(\"I'm sorreh, \" + popped_Celebrities + \" So apperently, I never liked your music in the first place.\")\n",
+        "\n",
+        "\n",
+        "print(\"\\nHey, \" + Celebrities[0].title() + \"!,\\nWould be amazing to have you for dinner, and talk about your music!\\n\")\n",
+        "print(\"Greetings to you!, \" + Celebrities[1].title() + \".\\nI would love to have you for dinner! would be amazing if you taught me some basketball techniques after\\n\")\n",
+        "\n",
+        "del Celebrities[0:3]\n",
+        "print(Celebrities)\n"
+      ]
+    }
+  ]
+}
