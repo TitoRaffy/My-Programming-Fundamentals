@@ -1,0 +1,48 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPyC/hYuPACUwIA2r5Qv+Gb",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_4/Exercise_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "wEJH8HKqUxFd"
+      },
+      "outputs": [],
+      "source": [
+        "# A UFO invaded earth! \n",
+        "print(\"You just shot down an alien.\")\n",
+        "print(\"So, What color was the alien that you shot down?\")\n",
+        "alien_color=str(input(\"Green, Yellow, or Red\"))\n",
+        "\n",
+        "# Shooting the Green Alien will give you 5+ points\n",
+        "if alien_color == \"Green\": \n",
+        "  print(\"5+ points\")"
+      ]
+    }
+  ]
+}
