@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNtog6ua/t8W5OWNZh9prQm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_4/Exercise_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "id": "1QloiVZ39FbP",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "d30c66e3-b2c9-472f-a296-84adda4fbf8e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "You just shot down an alien.\n",
+            "So, What color was the alien that you shot down?\n",
+            "Green, Yellow, or RedGreen\n",
+            "5+ points\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"You just shot down an alien.\")\n",
+        "print(\"So, What color was the alien that you shot down?\")\n",
+        "alien_color=str(input(\"Green, Yellow, or Red\"))\n",
+        "\n",
+        "if alien_color == \"Green\": \n",
+        "  print(\"5+ points\")\n",
+        "\n",
+        "elif alien_color == \"Yellow\" or \"Red\":\n",
+        "  print(\"10+ points\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Hit Yellow or Red you get 10!\")\n"
+      ]
+    }
+  ]
+}
