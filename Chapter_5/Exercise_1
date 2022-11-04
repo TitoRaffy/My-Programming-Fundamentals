@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMUJzwHHbnviaLeAH+t7Nhi",
+      "authorship_tag": "ABX9TyPcj0F1op6cBOk6D6T5pPp3",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,19 +28,20 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 7,
+      "execution_count": 8,
       "metadata": {
         "id": "-oCg_z_RV-a7",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "235c9b77-e531-4d81-be9b-96b476f42c1b"
+        "outputId": "8d85cf46-2dac-464d-9392-0814cd470b1a"
       },
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
+            "{'first_name': 'Cybel', 'last_name': 'De Luna', 'age': '15', 'city': 'Tuguegarao'}\n",
             "\n",
             "first_name\n",
             "Cybel\n",
@@ -59,6 +60,7 @@
       "source": [
         "# this person is very special to me\n",
         "person = {\"first_name\": \"Cybel\", \"last_name\": \"De Luna\", \"age\": \"15\", \"city\": \"Tuguegarao\"}\n",
+        "print(person)\n",
         "\n",
         "for key, value in person.items(): \n",
         " print(f\"\\n{key}\")\n",
