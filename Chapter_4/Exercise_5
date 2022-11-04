@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNx2+igZ+rscgDHq+Dn4qrO",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TitoRaffy/My-Programming-Fundamentals/blob/main/Chapter_4/Exercise_5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4M5A1pKNSaP6",
+        "outputId": "3d208c4b-32d7-4ffd-ea28-60fdf3a2179b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Papaya is my favorite fruit of all time!\n",
+            "Banana favorite fruit for my daily life\n",
+            "Mango is my most favorite furit of all!\n",
+            "Grapes eh, not so much\n",
+            "Pineapple not really my favorite\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = \"papaya\"\n",
+        "b = \"banana\"\n",
+        "c = \"mango\"\n",
+        "d = \"grapes\"\n",
+        "e = \"pineapple\"\n",
+        "favorite_fruit = [\"papaya\",\"banana\",\"mango\"]\n",
+        "\n",
+        "if a in favorite_fruit:\n",
+        "  print(a.title(), \"is my favorite fruit of all time!\")\n",
+        "if b in favorite_fruit:\n",
+        "  print(b.title(), \"favorite fruit for my daily life\")\n",
+        "if c in favorite_fruit:\n",
+        "  print(c.title(), \"is my most favorite furit of all!\")\n",
+        "if d not in favorite_fruit:\n",
+        "  print(d.title(), \"eh, not so much\")\n",
+        "if e not in favorite_fruit:\n",
+        "  print(e.title(), \"not really my favorite\")"
+      ]
+    }
+  ]
+}
